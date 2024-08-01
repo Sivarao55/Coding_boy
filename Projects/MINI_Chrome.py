@@ -49,6 +49,6 @@ class MainWindow(QMainWindow):
 
 
 app = QApplication(sys.argv)
-QApplication.setApplicationName('SIVARAO Browser')
+QApplication.setApplicationName('SIVARAO BROWSER')
 window = MainWindow()
 app.exec()
