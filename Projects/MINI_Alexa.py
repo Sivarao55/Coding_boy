@@ -12,8 +12,8 @@ def process(question):
         talk("I am waiting for your question")
         return True
     elif 'hi' in question:
-        print("hi saranya my name is also saranya")
-        talk("hi saranya my name is also saranya")
+        print("hi sai my name is also saranya")
+        talk("hi sai my name is also saranya")
         return True
     elif 'how are you' in question:
          print("I am good,thank you.How can I help you")
@@ -70,8 +70,8 @@ def process(question):
         webbrowser. get('C:/Program Files (x86)/Google/Chrome/Application/chrome.exe %s'). open(url)
         return True    
     elif 'bai' in question:
-        print(" my explantion is over so bye madam,once again happy birthday madam")
-        talk("my explantion is over so bye madam,once again happy birthday madam")
+        print(" my explantion is over so bye ")
+        talk("my explantion is over so bye ")
         return False
     else:
         print("I don't know your question")
@@ -94,14 +94,14 @@ def getQuestion():
         try:
             print(r.recognize_google(audio))
             question = r.recognize_google(audio)
-            if 'Saranya' in question:
-                question = question.replace('Saranya','')
+            if 'Sai' in question:
+                question = question.replace('Sai','')
                 print(question)
                 return question
            
             else:
-                print("call me saranya ")
-                talk("call me saranya ")
+                print("call me sai ")
+                talk("call me sai ")
                 return "notwithme"
         except sa.UnknownValueError:
             print("please tell me again")
