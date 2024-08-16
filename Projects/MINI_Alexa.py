@@ -12,8 +12,8 @@ def process(question):
         talk("I am waiting for your question")
         return True
     elif 'hi' in question:
-        print("hi sai my name is also saranya")
-        talk("hi sai my name is also saranya")
+        print("hi sai my name is also sivarao")
+        talk("hi sai my name is also sivarao")
         return True
     elif 'how are you' in question:
          print("I am good,thank you.How can I help you")
